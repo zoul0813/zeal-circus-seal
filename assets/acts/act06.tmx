@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="2">
+  <properties>
+    <property name="index" value="6" type="int" />
+    <property name="name" value="CHECKERBOARD" />
+  </properties>
+  <tileset firstgid="1" source="../tileset.tsx" />
+  <layer id="1" name="Tiles" width="20" height="15">
+    <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+3,8,1,9,1,8,1,9,1,8,1,9,1,8,1,9,1,8,1,4,
+3,1,10,1,11,1,10,1,11,1,10,1,11,1,10,1,11,1,10,4,
+3,8,1,9,1,8,1,9,1,8,1,9,1,8,1,9,1,8,1,4,
+3,1,10,1,11,1,10,1,11,1,10,1,11,1,10,1,11,1,10,4,
+3,8,1,9,1,8,1,9,1,8,1,9,1,8,1,9,1,8,1,4,
+3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,
+3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,
+3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,
+3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,
+3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,
+3,1,1,1,6,6,1,1,1,1,1,1,1,1,6,6,1,1,1,4,
+3,1,1,1,7,7,1,1,1,1,1,1,1,1,7,7,1,1,1,4,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+</data>
+  </layer>
+  <objectgroup id="2" name="Spawns">
+    <object id="1" name="Player" class="Player" x="144" y="208">
+      <point />
+    </object>
+  </objectgroup>
+</map>

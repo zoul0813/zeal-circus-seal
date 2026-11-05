@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="4">
+  <properties>
+    <property name="index" value="11" type="int" />
+    <property name="name" value="GRAND FINALE" />
+  </properties>
+  <tileset firstgid="1" source="../tileset.tsx" />
+  <layer id="1" name="Tiles" width="20" height="15">
+    <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+3,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,4,
+3,12,10,12,10,12,10,12,10,12,10,12,10,12,10,12,10,12,10,4,
+3,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,4,
+3,8,8,8,8,8,8,8,8,14,8,8,8,8,8,8,8,8,8,4,
+3,13,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,13,4,
+3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,
+3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,
+3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,
+3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,
+3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,
+3,6,6,1,1,1,6,6,1,1,1,1,6,6,1,1,1,6,6,4,
+3,7,7,1,1,1,7,7,1,1,1,1,7,7,1,1,1,7,7,4,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+</data>
+  </layer>
+  <objectgroup id="2" name="Spawns">
+    <object id="1" name="Clown" class="Clown" x="64" y="208">
+      <point />
+    </object>
+    <object id="2" name="Player" class="Player" x="144" y="208">
+      <point />
+    </object>
+    <object id="3" name="Clown" class="Clown" x="224" y="208">
+      <point />
+    </object>
+  </objectgroup>
+</map>
